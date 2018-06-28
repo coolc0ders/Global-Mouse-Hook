@@ -11,6 +11,10 @@ namespace Global_Mouse_Hooks
     {
         static void Main(string[] args)
         {
+            ClickDetector.ListenForMouseEvents();
+            
+            //Run the app as a windows forma application
+            Application.Run(new ApplicationContext());
         }
     }
 }
